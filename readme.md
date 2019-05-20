@@ -12,6 +12,7 @@
 - page de connexion
 - page d'inscription
 - rendre le site dynamique visuellement
+- Police titre : "<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">"
 
 Contenu :
 Articles , commentaires , barre de recherche , menu hamburger
