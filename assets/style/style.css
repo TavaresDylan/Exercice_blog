@@ -1,15 +1,14 @@
-/* Import CSS *//* Import CSS *//* Import CSS */
+/* Import CSS *//* Import CSS *//* Import CSS *//* Import CSS */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 /* Import CSS *//* Import CSS *//* Import CSS */
 
-/* Général *//* Général *//* Général */
-
+/* Général *//* Général *//* Général *//* Général */
 body
 {
   background:#fff;
   font-family:'Lato';
-  margin:0;
+  margin:0 auto;
   padding:0;
   box-sizing: border-box;
   width: 100%;
@@ -26,7 +25,7 @@ a:hover{
 }
 /* Général *//* Général *//* Général */
 
-/* MENU DE NAVIGATION *//* MENU DE NAVIGATION *//* MENU DE NAVIGATION */
+/* MENU DE NAVIGATION *//* MENU DE NAVIGATION *//* MENU DE NAVIGATION *//* MENU DE NAVIGATION */
 header{
   position: fixed;
   z-index: 2;
@@ -56,6 +55,7 @@ header{
   line-height:50px;
   padding:0 20px;
   text-transform:uppercase;
+  position: relative;
 }
 
 .menu nav
@@ -104,6 +104,7 @@ header{
   top:0;
   right:20px;
   width:50px;
+
 }
 
 .menu .burger:before
@@ -119,18 +120,18 @@ header{
 .menu .burger:checked + nav
 {
   height:calc(100vh - 50px);
-  z-index: 2;
+  z-index: 4;
   position: relative;
 }
 p
 {
-  padding:20px;
+  padding:5px 15px ;
 }
 /** MENU DE NAVIGATION **//** MENU DE NAVIGATION **//** MENU DE NAVIGATION **/
 
-/* Bannière *//* Bannière *//* Bannière */
+/* Bannière *//* Bannière *//* Bannière *//* Bannière */
 #textbanner{
-  font-size: 22px;
+  font-size: 220%;
   position: relative;
   bottom: -110px;
   font-weight:bold;
@@ -138,10 +139,9 @@ p
   font-family: 'Lato';
   color: #3f51b5;
   z-index: 1;
-  text-shadow: 2px 2px 2px white ;
+  text-shadow: 2px 2px 2px white;
 }
-div#slider { width: 100%; max-width: 1000px; overflow: hidden;
-  margin: 0 0; text-align: center;
+div#slider { width: 100%; max-width: 1000px; overflow: hidden;text-align: center;
  }
 
 div#slider figure {
@@ -151,7 +151,7 @@ div#slider figure {
   font-size: 0;
   text-align: center;
 }
-div#slider figure img { width: 20%; height: auto; float: left; }
+div#slider figure img { width: 20%; height: auto; padding-top: 15px;}
 
 @keyframes slidy {
   0% { left: 0%; }
@@ -174,8 +174,9 @@ div#slider figure {
   text-align: left;
   animation: 30s slidy infinite;
 }
+/* Bannière *//* Bannière *//* Bannière */
 
-/* H2 *//* H2 *//* H2 *//* H2 */
+/* SECTION *//* SECTION *//* SECTION *//* SECTION */
 article > h2{
   color: #3f51b5;
   text-shadow: 2px 2px 2px white ;
@@ -202,20 +203,73 @@ section{
   margin-top: 10px;
 }
 
+.textarticle > a{
+  color: blue;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 12px;
+  padding-bottom: 30px;
+}
+/* SECTION *//* SECTION *//* SECTION */
+
 /* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
 footer{
   background-color: rgba(63, 81, 181, 0.4);
   position: relative;
   bottom: 0;
   width: 100%;
+  margin:0 !important;
 }
 #footericons{
   display: flex;
   justify-content: space-around;
   align-self: center;
-  width: 25%;
-  height: 25%;
+  width: 30%;
+  height: 30%;
 }
 #textfooter{
   
+}
+/* FOOTER *//* FOOTER *//* FOOTER */
+
+/* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
+@media (min-width:1000px)  {
+  body{
+    width: 80%;
+  }
+  p{
+    font-size: 1.4em;
+  }
+  article h2{
+    font-size: 2.3em;
+  }
+  div#slider { overflow: hidden; margin: 0 auto; max-width: 100%;
+ }
+ .menu
+{
+  width: 80%;
+}
+img{
+  width: 90%;
+  height: 90%;
+}
+.menu .burger
+{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  color:inherit;
+  cursor:pointer;
+  font-family:'Material Icons';
+  font-size:30px;
+  line-height:50px;
+  margin-left:600px;
+  outline:0;
+  position: relative;
+  text-align:center;
+  top:0;
+  width:50px;
+
+}
+
 }
