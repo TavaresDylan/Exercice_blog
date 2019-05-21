@@ -1,5 +1,10 @@
+/* Import CSS *//* Import CSS *//* Import CSS */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+/* Import CSS *//* Import CSS *//* Import CSS */
+
+/* Général *//* Général *//* Général */
+
 body
 {
   background:#fff;
@@ -7,6 +12,7 @@ body
   margin:0;
   padding:0;
   box-sizing: border-box;
+  width: 100%;
 }
 
 a
@@ -14,7 +20,20 @@ a
   color:#fff;
   text-decoration:none;
 }
+a:hover{
+  color: #c3c3c3;
+  text-decoration: none;
+}
+/* Général *//* Général *//* Général */
 
+/* MENU DE NAVIGATION *//* MENU DE NAVIGATION *//* MENU DE NAVIGATION */
+header{
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+
+}
 .material-icons
 {
   font-size:24px;
@@ -27,7 +46,7 @@ a
   background:#3f51b5;
   color:#fff;
   height:50px;
-  position:relative;
+  width: auto;
 }
 
 .menu .title
@@ -53,6 +72,7 @@ a
 .menu nav > *
 {
   display:block;
+  z-index: 3;
   letter-spacing:1px;
   line-height:2.5;
   padding:0 20px;
@@ -82,7 +102,7 @@ a
   position:absolute;
   text-align:center;
   top:0;
-  right:10px;
+  right:20px;
   width:50px;
 }
 
@@ -99,8 +119,103 @@ a
 .menu .burger:checked + nav
 {
   height:calc(100vh - 50px);
+  z-index: 2;
+  position: relative;
 }
 p
 {
   padding:20px;
+}
+/** MENU DE NAVIGATION **//** MENU DE NAVIGATION **//** MENU DE NAVIGATION **/
+
+/* Bannière *//* Bannière *//* Bannière */
+#textbanner{
+  font-size: 22px;
+  position: relative;
+  bottom: -110px;
+  font-weight:bold;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  color: #3f51b5;
+  z-index: 1;
+  text-shadow: 2px 2px 2px white ;
+}
+div#slider { width: 100%; max-width: 1000px; overflow: hidden;
+  margin: 0 0; text-align: center;
+ }
+
+div#slider figure {
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+div#slider figure img { width: 20%; height: auto; float: left; }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+}
+
+/* H2 *//* H2 *//* H2 *//* H2 */
+article > h2{
+  color: #3f51b5;
+  text-shadow: 2px 2px 2px white ;
+  font-family: 'Lato';
+  font-size: 22px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+article{
+  background-color: rgba(63, 81, 181, 0.3);
+  width: 100%;
+}
+img{
+  width: 95%;
+  height: 95%;
+}  
+section{
+  background-color: rgba(63, 81, 181, 0.3);
+}
+#imgarticle{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+footer{
+  background-color: rgba(63, 81, 181, 0.4);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+#footericons{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 25%;
+  height: 25%;
+}
+#textfooter{
+  
 }
