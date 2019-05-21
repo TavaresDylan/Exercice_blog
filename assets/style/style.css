@@ -309,3 +309,8 @@ form{
   bottom: 0;
   width: 100%;
 }
+#divdejainscrit{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
