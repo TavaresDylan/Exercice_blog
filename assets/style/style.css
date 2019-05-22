@@ -67,6 +67,7 @@ header{
   overflow:hidden;
   text-transform:uppercase;
   transition:height .2s;
+  text-align: center;
 }
 
 .menu nav > *
@@ -84,6 +85,7 @@ header{
   background:rgba(0,0,0,.2);
   border:none;
   color:#fff;
+  text-align: center;
 }
 
 .menu .burger
@@ -309,6 +311,7 @@ footer{
   overflow:hidden;
   text-transform:uppercase;
   transition:height .2s;
+  text-align: left;
 }
 
 .menu nav > *
@@ -326,6 +329,7 @@ footer{
   background:rgba(0,0,0,.2);
   border:none;
   color:#fff;
+  text-align: left;
 }
 
 .menu .burger
