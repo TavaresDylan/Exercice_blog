@@ -185,10 +185,10 @@ article > h2{
   font-family: 'Lato';
   font-size: 22px;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 5px;
 }
 article{
+  padding-top: 35px;
+  padding-bottom: 35px;
   background-color: rgba(63, 81, 181, 0.3);
   width: 100%;
 }
@@ -211,7 +211,6 @@ section{
   display: flex;
   justify-content: flex-end;
   padding-right: 12px;
-  padding-bottom: 30px;
 }
 /* SECTION *//* SECTION *//* SECTION */
 
@@ -400,7 +399,7 @@ form{
   max-height: 1080px;
 }
 #footer2{
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
