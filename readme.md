@@ -23,3 +23,5 @@ Articles , commentaires , barre de recherche , menu hamburger
 ![Maquette contact.html](assets/img/contact.jpg)
 ![Maquette inscription.html](assets/img/inscription.jpg)
 ![Maquette connexion.html](assets/img/connexion.jpg)
+![Maquette article.html partie 1](assets/img/articlepart1.jpg)
+![Maquette article.html partie 2](assets/img/articlepart2.jpg)
