@@ -10,8 +10,7 @@ body
   font-family:'Lato';
   margin:0 auto;
   padding:0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
 }
 
@@ -67,8 +66,6 @@ header{
   height:0;
   overflow:hidden;
   text-transform:uppercase;
-  -webkit-transition:height .2s;
-  -o-transition:height .2s;
   transition:height .2s;
   text-align: center;
 }
@@ -158,18 +155,6 @@ div#slider figure {
 }
 div#slider figure img { width: 20%; height: auto; padding-top: 15px;}
 
-@-webkit-keyframes slidy {
-  0% { left: 0%; }
-  20% { left: 0%; }
-  25% { left: -100%; }
-  45% { left: -100%; }
-  50% { left: -200%; }
-  70% { left: -200%; }
-  75% { left: -300%; }
-  95% { left: -300%; }
-  100% { left: -400%; }
-}
-
 @keyframes slidy {
   0% { left: 0%; }
   20% { left: 0%; }
@@ -189,8 +174,7 @@ div#slider figure {
   font-size: 0;
   left: 0;
   text-align: left;
-  -webkit-animation: 30s slidy infinite;
-          animation: 30s slidy infinite;
+  animation: 30s slidy infinite;
 }
 /* Bannière *//* Bannière *//* Bannière */
 
@@ -217,23 +201,15 @@ section{
   height: auto;
 }
 #imgarticle{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 10px;
 }
 
 .textarticle > a{
   color: blue;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   padding-right: 12px;
 }
 /* SECTION *//* SECTION *//* SECTION */
@@ -256,12 +232,8 @@ section{
 }
 #pages a:hover:not(.active) {background-color: #a833ff;}
 #pagination{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 /* PAGINATION *//* PAGINATION *//* PAGINATION */
 
@@ -274,13 +246,9 @@ footer{
   margin:0 !important;
 }
 #footericons{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-item-align: center;
-      align-self: center;
+  justify-content: space-around;
+  align-self: center;
   width: 30%;
   height: 30%;
 }
@@ -342,8 +310,6 @@ footer{
   height:0;
   overflow:hidden;
   text-transform:uppercase;
-  -webkit-transition:height .2s;
-  -o-transition:height .2s;
   transition:height .2s;
   text-align: left;
 }
@@ -438,23 +404,16 @@ form{
   width: 100%;
 }
 #divdejainscrit{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding-bottom: 15px;
 }
 /* INSCRIPTION *//* INSCRIPTION *//* INSCRIPTION */
 
 /* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT */
 #logocontact{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 /* CONTACT *//* CONTACT *//* CONTACT */
 .row{
