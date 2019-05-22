@@ -18,3 +18,8 @@ Contenu :
 Articles , commentaires , barre de recherche , menu hamburger
 
 ## Maquette :
+
+![Maquette index.html](assets/img/index.jpg)
+![Maquette contact.html](assets/img/contact.jpg)
+![Maquette inscription.html](assets/img/inscription.jpg)
+![Maquette connexion.html](assets/img/connexion.jpg)
