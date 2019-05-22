@@ -198,6 +198,7 @@ img{
 }  
 section{
   background-color: rgba(63, 81, 181, 0.3);
+  height: auto;
 }
 #imgarticle{
   display: flex;
@@ -399,6 +400,7 @@ form{
   max-height: 1080px;
 }
 #footer2{
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -415,3 +417,6 @@ form{
   justify-content: space-around;
 }
 /* CONTACT *//* CONTACT *//* CONTACT */
+.row{
+  margin-right: 0;
+}
