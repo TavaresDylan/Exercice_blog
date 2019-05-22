@@ -296,7 +296,7 @@ footer{
 }
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
-/* INSCRIPTION *//* INSCRIPTION *//* INSCRIPTION */
+/* INSCRIPTION *//* INSCRIPTION *//* INSCRIPTION *//* INSCRIPTION */
 form{
   
 }
@@ -313,4 +313,11 @@ form{
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
+}
+/* INSCRIPTION *//* INSCRIPTION *//* INSCRIPTION */
+
+/* CONTACT *//* CONTACT *//* CONTACT *//* CONTACT */
+#logocontact{
+  display: flex;
+  justify-content: space-around;
 }
