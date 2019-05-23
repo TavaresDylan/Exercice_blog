@@ -473,3 +473,39 @@ section > #nbcom{
   color: white;
   width: 100%;
 }
+#contTextArea{
+  margin-top: 15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: center;
+}
+#textareaCom{
+  text-align: center;
+  height: 120px;
+  max-height: 320px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#formCom{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#boutonCom{
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(white,rgba(63, 81, 181, 0.4)); 
+}
+#boutonCom:active{
+  color: rgba(63, 81, 181, 1);
+}
+#boutonCom:hover{
+  color: rgba(63, 81, 181, 1);
+  background-color: grey;
+}
