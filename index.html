@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="UTF-8">
 	<title>Blog de dylan</title>
 	<!-- Meta ViewPort -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- BootStrap CDN -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Reset CSS (mettre avant style.css)-->
 		<link rel="stylesheet" type="text/css" href="assets/style/reset.css">
 		<!-- Feuille de style -->
@@ -23,7 +20,7 @@
 	<header>
 		<div class="menu">
             
-            <span class="title"><a href="index.html">Blog</a></span>
+            <span class="title"><a href="index.html">Blog Bazar</a></span>
             <input class="burger" type="checkbox">
             <nav>
                 <input type="search" placeholder="Rechercher...">
@@ -38,7 +35,7 @@
 
 <div id="slider">
 	<!--<div id="banner">-->
-		<span id="textbanner">Blog de dylan</span>
+		<p><span id="textbanner">Bienvenu sur Blog bazard</span></p>
 	<!--</div>-->
   		<figure> 
 	    	<img src="assets/img/dl1.jpg" alt="dl1">
@@ -56,9 +53,15 @@
 			<img src="https://lejournal.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/_mg_6970b.jpg?itok=shFXeuo7" alt="image article">
 		</div>
 		<div class="textarticle">
-			<p>date : 22/05/2019</p>
-			<p>Même si on a l’impression qu’un ordi fait plein de choses, en réalité, il n’a qu’une seule mission : il traite de l’information (d’où le mot “informatique“). Votre ordi stocke de l’information sur votre disque dur, il traite des infos avec son processeur (comme la page que vous lisez ou un film que vous regardez), et il transforme cette information en un son ou en image.</p>
-			</p><a href="article_1.html">Suite...</a>
+			<p class="date">date : 22/05/2019</p>
+			<p class="descart">Même si on a l’impression qu’un ordi fait plein de choses, en réalité, il n’a qu’une seule mission : il traite de l’information (d’où le mot “informatique“). Votre ordi stocke de l’information sur votre disque dur, il traite des infos avec son processeur (comme la page que vous lisez ou un film que vous regardez), et il transforme cette information en un son ou en image.</p>
+			</p>
+			<div class="boutonsuite">
+				<div class="iconcom">
+					<a href=""><i class="material-icons">chat</i>78</a>
+				</div>
+				<button><a class="liensuite" href="article_1.html">Suite...</a></button>
+			</div>
 		</div>
 	</article>
 
@@ -68,8 +71,14 @@
 			<img src="assets/img/imgarticle2.jpg" alt="image article">
 		</div>
 		<div class="textarticle">
-			<p>date : 23/05/2019</p>
-			<p>Daddy Bender, we're hungry. Yes. You gave me a dollar and some candy. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. I found what I need. And it's not friends, it's things.Negative, bossy meat creature! I can explain. It's very valuable. File not found. And yet you haven't said what I told you to say! How can any of us trust you?I'm sure those windmills will keep them cool.</p><a href="#">Suite...</a>
+			<p class="date">date : 23/05/2019</p>
+			<p class="descart">Daddy Bender, we're hungry. Yes. You gave me a dollar and some candy. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. I found what I need. And it's not friends, it's things.Negative, bossy meat creature! I can explain. It's very valuable. File not found. And yet you haven't said what I told you to say! How can any of us trust you?I'm sure those windmills will keep them cool.</p>
+			<div class="boutonsuite">
+				<div class="iconcom">
+					<a href=""><i class="material-icons">chat</i>78</a>
+				</div>
+				<button><a class="liensuite" href="#">Suite...</a></button>
+			</div>
 		</div>
 	</article>
 	<article>
@@ -78,8 +87,14 @@
 			<img src="assets/img/imgarticle3.jpg" alt="image article">
 		</div>
 		<div class="textarticle">
-			<p>date : 26/05/2019</p>
-			<p>Avec l'arrivée de CSS3, les développeurs web ont vu leurs possibilités en webdesign se multiplier : que ce soient les coins arrondis, les fonds en dégradé ou encore les rotations, les nouvelles fonctionnalités utilisables laissent rêveur.</p><a href="#">Suite...</a>
+			<p class="date">date : 26/05/2019</p>
+			<p class="descart">Avec l'arrivée de CSS3, les développeurs web ont vu leurs possibilités en webdesign se multiplier : que ce soient les coins arrondis, les fonds en dégradé ou encore les rotations, les nouvelles fonctionnalités utilisables laissent rêveur.</p>
+			<div class="boutonsuite">
+				<div class="iconcom">
+					<a href=""><i class="material-icons">chat</i>78</a>
+				</div>
+				<button><a class="liensuite" href="article_3.html">Suite...</a></button>
+			</div>
 		</div>
 	</article>
 </section>
@@ -97,13 +112,13 @@
 	</div>
 </section>
 
-<footer class="row">
-	<div class="col-6" id="footericons">
+<footer>
+	<div id="footericons">
 		<a href=""><img src="assets/img/icon facebook.png" alt=""></a>
 		<a href=""><img src="assets/img/icon instagram.png" alt=""></a>
 		<a href=""><img src="assets/img/icon twitter.png" alt=""></a>
 	</div>
-	<p id="textfooter" class="col-6">Contact : </br> Tavares Dylan , 16 rue de la soif 06515 Carros</p>
+	<p id="textfooter">Contact : </br> Tavares Dylan , 16 rue de la soif 06515 Carros</p>
 </footer>
 
 </body>
