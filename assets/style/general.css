@@ -1,0 +1,21 @@
+/* Général *//* Général *//* Général *//* Général */
+body
+{
+  background:#fff;
+  font-family:'Lato';
+  margin:0 auto;
+  padding:0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+a
+{
+  color:#fff;
+  text-decoration:none;
+}
+a:hover{
+  color: #c3c3c3;
+  text-decoration: none;
+}
+/* FIN Général *//* FIN Général *//* FIN Général */
